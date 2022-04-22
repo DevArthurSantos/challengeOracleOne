@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <script src="./src/js/index.js" defer></script>
+    <title>Text encryptor</title>
+  </head>
+  <body>
+    <div id="conteinerGlobal">
+      <section id="sectionAside">
+        <header id="header" style="position: fixed">
+          <div id="contienerHeader">
+            <img src="./src/imgs/logo.png" id="logodaAlura" alt="logodaAlura" />
+          </div>
+        </header>
+      </section>
+      <section id="sectionConteudo">
+        <main id="mainConteudo">
+          <form id="formulario">
+            <textarea
+              id="textoCompleto"
+              placeholder="Digite seu texto"
+              style="resize: none"
+            >a</textarea>
+            <div id="mainButtons">
+              <input type="button" id="encriptar" class="button" value="Criptografar"></input>
+              <input type="button" id="desencriptar" class="button" value="Descriptografar"></input>
+            </div>
+          </form>
+        </main>
+        <aside>
+          <div id="aside">
+            <div id="asideNoMSG">
+              <img id="persona" src="./src/imgs/persona.svg" alt="persona" />
+              <h3 id="error">Nenhuma mensagem encontrada</h3>
+              <br />
+              <hr />
+              <br />
+              <p>
+                Digite um texto que você deseja criptografar ou descriptografar.
+              </p>
+            </div>
+            <div id="divTextEncripyter">
+              <p id="textoEncripitado"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto, dolorem iste ad ut sunt. Accusantium facilis consequatur eum minima laudantium! Suscipit dignissimos rem, voluptates deserunt voluptatem omnis quidem saepe.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </body>
+</html>
